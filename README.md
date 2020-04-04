@@ -42,3 +42,18 @@ chown 472:472 ./var/lib/mysql \
 docker-compose up -d
 ```
 Para acesar o **GLPI** acesse http://<seu_ip> 
+
+### Configurando GLPI
+
+```bash
+host: mysql
+usuario: glpi_user
+senha: glpi
+```
+
+### GLPI
+
+```bash
+usuario: glpi
+senha: glpi
+```
