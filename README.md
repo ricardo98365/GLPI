@@ -21,9 +21,11 @@ chmod +x /usr/local/bin/docker-compose
 ### Criando diretório para presistencia de dados e baixando o repositório
 
 ```bash
+mkdir opt
+
 cd /opt 
 
-git clone https://github.com/williamnormandia/GLPI.git
+git clone https://github.com/ricardo98365/GLPI.git
 
 cd GLPI 
 
